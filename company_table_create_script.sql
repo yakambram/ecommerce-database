@@ -1,4 +1,3 @@
-
 create table company(
 company_id int primary key,
 company_name varchar(30),
