@@ -1,4 +1,4 @@
-1) COMPANY TABLE SCRIPT:
+-- 1) COMPANY TABLE SCRIPT:
 
 create table company(
 company_id int primary key,
