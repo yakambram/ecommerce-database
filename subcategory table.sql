@@ -1,10 +1,10 @@
-create table subCategory(
-subCategory_id int primary key,
-subCategory_name varchar(30),
-subCategory_description varchar(250),
-subCategory_createdBy varchar(30),
-subCategory_createdDate timestamp,
-subCategory_modifiedBy varchar(30),
-subCategory_modifiedDate timestamp,
+create table subcategory(
+subcategory_id int primary key,
+subcategory_name varchar(30),
+subcategory_description varchar(250),
+subcategory_created_by varchar(30),
+subcategory_created_date timestamp,
+subcategory_modified_by varchar(30),
+subcategory_modified_date timestamp,
 category_id int references category(category_id)
 );
